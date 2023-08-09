@@ -37,6 +37,18 @@ public class Account {
         return owner;
     }
 
+    public Long getId() {
+        return id;
+    }
+
+    public LocalDate getCreationDate() {
+        return creationDate;
+    }
+
+    public Double getBalance() {
+        return balance;
+    }
+
     public void setOwner(Client owner) {
         this.owner = owner;
     }
@@ -45,5 +57,6 @@ public class Account {
         this.number = number;
         this.creationDate = creationDate;
         this.balance = balance;
+
     }
 }
