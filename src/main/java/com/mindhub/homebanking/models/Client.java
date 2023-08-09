@@ -62,4 +62,7 @@ public class Client {
         return firstName + " " + lastName + " " + email;
     }
 
+    public Long getId() {
+        return null;
+    }
 }
